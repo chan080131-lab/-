@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무선전력전송 효율 분석 보고서</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a365d;
+            font-size: 24px;
+            border-bottom: 3px solid #2b6cb0;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c5282;
+            font-size: 18px;
+            margin-top: 30px;
+            border-left: 4px solid #2b6cb0;
+            padding-left: 10px;
+        }
+        h3 {
+            color: #2b6cb0;
+            font-size: 15px;
+        }
+        p, li {
+            font-size: 14px;
+            text-align: justify;
+        }
+        .highlight-box {
+            background-color: #ebf8ff;
+            border-left: 4px solid #3182ce;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .highlight-box strong {
+            color: #2b6cb0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 13px;
+            text-align: center;
+        }
+        th {
+            background-color: #f7fafc;
+            color: #2d3748;
+        }
+        .algorithm-list {
+            background-color: #f7fafc;
+            padding: 20px 20px 20px 40px;
+            border-radius: 6px;
+            border: 1px solid #edf2f7;
+        }
+        .algorithm-list li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #a0aec0;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>4-코일 자기공진형 무선전력전송(WPT) 시스템의 효율 최적화 분석 및 제어 알고리즘 설계</h1>
+    
+    <div class="highlight-box">
+        <strong>융합 핵심 요약:</strong> 물리학 II의 핵심인 <strong>패러데이 법칙</strong>과 <strong>교류 임피던스 매칭 이론</strong>을 분석하고, 하드웨어적 한계(거리 변화에 따른 효율 급감)를 컴퓨터공학적 <strong>'동적 주파수 추적 제어 알고리즘'</strong>으로 극복하는 설계안을 정립함.
+    </div>
