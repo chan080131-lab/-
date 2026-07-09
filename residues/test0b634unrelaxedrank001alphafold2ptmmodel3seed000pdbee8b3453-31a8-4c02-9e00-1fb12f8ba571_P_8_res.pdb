@@ -1,0 +1,52 @@
+HEADER	Output of DoGSiteScorer by A. Volkamer
+HEADER	Pocket 8 with 46 binding site atoms written.
+HEADER	References: 
+HEADER	A. Volkamer et al. Analyzing the topology of active sites: on the prediction of pockets and subpockets. J. Chem. Inf. Model. 2010,50(11), 2041-52
+HEADER	A. Volkamer et al. Combining global and local measures for structure-based druggability predictions. J. Chem. Inf. Model. 2012,52,360-372
+HEADER	Geometric pocket center at  35.22  -8.85  -6.63 with max radius 9.92
+ATOM   2855  O   PHE A 361      30.734  -7.730  -4.891  0.00  0.00           O
+ATOM   2863  CA  LYS A 362      29.359 -10.086  -5.062  0.00  0.00           C
+ATOM   2864  C   LYS A 362      28.141 -10.414  -5.941  0.00  0.00           C
+ATOM   2865  CB  LYS A 362      29.766 -11.328  -4.273  0.00  0.00           C
+ATOM   2867  CG  LYS A 362      31.219 -11.305  -3.801  0.00  0.00           C
+ATOM   2868  CD  LYS A 362      31.719 -12.695  -3.441  0.00  0.00           C
+ATOM   2869  CE  LYS A 362      33.188 -12.688  -3.070  0.00  0.00           C
+ATOM   2871  N   GLN A 363      28.422 -11.109  -6.961  0.00  0.00           N
+ATOM   2872  CA  GLN A 363      27.359 -11.469  -7.895  0.00  0.00           C
+ATOM   2874  CB  GLN A 363      27.953 -12.086  -9.164  0.00  0.00           C
+ATOM   2876  CG  GLN A 363      28.641 -13.422  -8.938  0.00  0.00           C
+ATOM   2877  CD  GLN A 363      29.219 -14.008 -10.211  0.00  0.00           C
+ATOM   2879  OE1 GLN A 363      29.562 -13.273 -11.148  0.00  0.00           O
+ATOM   3059  CA  THR A 388      28.438  -8.734 -12.461  0.00  0.00           C
+ATOM   3061  CB  THR A 388      29.156  -9.852 -13.227  0.00  0.00           C
+ATOM   3062  O   THR A 388      30.016  -7.301 -11.367  0.00  0.00           O
+ATOM   3063  CG2 THR A 388      30.406 -10.305 -12.484  0.00  0.00           C
+ATOM   3064  OG1 THR A 388      28.281 -10.969 -13.391  0.00  0.00           O
+ATOM   3084  C   PHE A 391      29.812  -6.684  -8.016  0.00  0.00           C
+ATOM   3086  O   PHE A 391      29.859  -7.910  -7.910  0.00  0.00           O
+ATOM   3094  CA  ASN A 392      32.344  -6.582  -8.008  0.00  0.00           C
+ATOM   3095  C   ASN A 392      33.250  -5.609  -7.285  0.00  0.00           C
+ATOM   3096  CB  ASN A 392      32.875  -6.902  -9.398  0.00  0.00           C
+ATOM   3097  O   ASN A 392      34.188  -5.078  -7.879  0.00  0.00           O
+ATOM   3098  CG  ASN A 392      34.156  -7.742  -9.352  0.00  0.00           C
+ATOM   3100  OD1 ASN A 392      34.625  -8.125  -8.273  0.00  0.00           O
+ATOM   3101  N   SER A 393      32.750  -5.254  -6.102  0.00  0.00           N
+ATOM   3102  CA  SER A 393      33.562  -4.258  -5.395  0.00  0.00           C
+ATOM   3103  C   SER A 393      33.656  -4.594  -3.910  0.00  0.00           C
+ATOM   3107  N   THR A 394      34.875  -4.230  -3.357  0.00  0.00           N
+ATOM   3108  CA  THR A 394      35.125  -4.371  -1.928  0.00  0.00           C
+ATOM   3110  CB  THR A 394      36.344  -5.301  -1.661  0.00  0.00           C
+ATOM   3112  CG2 THR A 394      36.031  -6.730  -2.104  0.00  0.00           C
+ATOM   3113  OG1 THR A 394      37.469  -4.824  -2.383  0.00  0.00           O
+ATOM   3178  O   SER A 401      38.188  -3.295  -4.797  0.00  0.00           O
+ATOM   3179  OG  SER A 401      40.750  -3.795  -3.535  0.00  0.00           O
+ATOM   3181  CA  THR A 402      38.844  -3.148  -7.430  0.00  0.00           C
+ATOM   3182  C   THR A 402      40.094  -3.898  -7.859  0.00  0.00           C
+ATOM   3183  CB  THR A 402      38.188  -2.469  -8.656  0.00  0.00           C
+ATOM   3185  CG2 THR A 402      36.656  -2.434  -8.531  0.00  0.00           C
+ATOM   3187  N   GLU A 403      40.219  -5.160  -7.750  0.00  0.00           N
+ATOM   3188  CA  GLU A 403      41.312  -5.926  -8.336  0.00  0.00           C
+ATOM   3190  CB  GLU A 403      40.969  -7.414  -8.406  0.00  0.00           C
+ATOM   3192  CG  GLU A 403      42.031  -8.320  -7.812  0.00  0.00           C
+ATOM   3193  CD  GLU A 403      41.469  -9.578  -7.168  0.00  0.00           C
+ATOM   3195  OE2 GLU A 403      40.281  -9.891  -7.438  0.00  0.00           O

@@ -1,0 +1,46 @@
+import numpy as np
+def calculate_wpty_efficiency(freq, distance_mm):
+# 1. 물리 상수 및 소자 매개변수 정의 (논문 기준 추정치)
+omega = 2 * np.pi * freq
+L1, L2, L3, L4 = 5e-6, 15e-6, 15e-6, 5e-6
+C2 = C3 = 1 / ((2 * np.pi * 5.5e6)**2 * 15e-6) # 5.5MHz 공진 기준
+R1, R4 = 50, 50 # 입출력 임피던스 50 옴 매칭
+R2 = R3 = 0.5 # 내부 저항
+# 2. 거리에 따른 상호 인덕턴스 M2 모델링 (거리에 반비례)
+M1, M3 = 1.2e-6, 1.2e-6
+M2 = 4.5e-5 / (distance_mm ** 1.5) # 논문 수식 경향성 반영
+# 3. 임피던스 행렬 구조화
+Z1 = R1 + 1j * omega * L1
+Z2 = R2 + 1j * omega * L2 + 1 / (1j * omega * C2)
+Z3 = R3 + 1j * omega * L3 + 1 / (1j * omega * C3)
+Z4 = R4 + 1j * omega * L4
+# KVL Matrix [Z][I] = [V]
+Z_matrix = np.array([
+[Z1, -1j*omega*M1, 0, 0],
+[-1j*omega*M1, Z2, -1j*omega*M2, 0],
+[0, -1j*omega*M2, Z3, -1j*omega*M3],
+[0, 0, -1j*omega*M3, Z4]
+])
+V_vector = np.array([10.0, 0, 0, 0]) # 입력 전압 10V
+try:
+I = np.linalg.solve(Z_matrix, V_vector)
+power_load = (np.abs(I[3])**2) * R4
+efficiency = (power_load / (10.0 * np.abs(I[0]))) * 100
+return min(efficiency, 100.0)
+except np.linalg.LinAlgError:
+return 0.0
+# 동적 주파수 튜닝 알고리즘 (스마트폰 무선충전용 MCU 적용 로직)
+def run_dynamic_frequency_tuning(distance_mm):
+frequencies = np.linspace(4.0e6, 6.5e6, 100) # 4.0MHz ~ 6.5MHz 탐색
+best_freq = 0
+max_eff = 0
+for f in frequencies:
+eff = calculate_wpty_efficiency(f, distance_mm)
+if eff > max_eff:
+max_eff = eff
+best_freq = f
+print(f"[제어 알고리즘 작동] 거리: {distance_mm}mm -> 최적 튜닝 주파수: {best_freq/1e6:.2f}MHz (예상
+효율: {max_eff:.2f}%)")
+# 실행 테스트
+run_dynamic_frequency_tuning(53)
+run_dynamic_frequency_tuning(230)

@@ -1,0 +1,39 @@
+HEADER	Output of DoGSiteScorer by A. Volkamer
+HEADER	Pocket 14 with 33 binding site atoms written.
+HEADER	References: 
+HEADER	A. Volkamer et al. Analyzing the topology of active sites: on the prediction of pockets and subpockets. J. Chem. Inf. Model. 2010,50(11), 2041-52
+HEADER	A. Volkamer et al. Combining global and local measures for structure-based druggability predictions. J. Chem. Inf. Model. 2012,52,360-372
+HEADER	Geometric pocket center at -64.50  12.90  42.92 with max radius 5.57
+ATOM   5313  O   ASN A 671     -63.875  10.250  38.188  0.00  0.00           O
+ATOM   5318  CA  TRP A 672     -62.125  11.695  39.562  0.00  0.00           C
+ATOM   5319  C   TRP A 672     -62.812  13.016  39.219  0.00  0.00           C
+ATOM   5320  CB  TRP A 672     -60.938  11.945  40.469  0.00  0.00           C
+ATOM   5321  O   TRP A 672     -63.500  13.602  40.062  0.00  0.00           O
+ATOM   5322  CG  TRP A 672     -60.875  13.320  41.062  0.00  0.00           C
+ATOM   5323  CD1 TRP A 672     -61.375  14.469  40.500  0.00  0.00           C
+ATOM   5324  CD2 TRP A 672     -60.312  13.695  42.312  0.00  0.00           C
+ATOM   5325  CE2 TRP A 672     -60.500  15.094  42.469  0.00  0.00           C
+ATOM   5327  NE1 TRP A 672     -61.125  15.539  41.344  0.00  0.00           N
+ATOM   5332  CA  PHE A 673     -63.438  14.820  37.531  0.00  0.00           C
+ATOM   5333  C   PHE A 673     -64.750  14.344  36.906  0.00  0.00           C
+ATOM   5346  O   ASN A 674     -67.312  12.695  37.938  0.00  0.00           O
+ATOM   5366  CA  ASN A 677     -68.125  10.711  41.000  0.00  0.00           C
+ATOM   5367  C   ASN A 677     -68.250  11.992  41.844  0.00  0.00           C
+ATOM   5368  CB  ASN A 677     -66.688  10.242  40.969  0.00  0.00           C
+ATOM   5369  O   ASN A 677     -68.438  11.938  43.062  0.00  0.00           O
+ATOM   5370  CG  ASN A 677     -66.562   8.750  40.750  0.00  0.00           C
+ATOM   5371  ND2 ASN A 677     -65.312   8.312  40.406  0.00  0.00           N
+ATOM   5373  N   TRP A 678     -68.188  13.141  41.094  0.00  0.00           N
+ATOM   5374  CA  TRP A 678     -68.438  14.445  41.688  0.00  0.00           C
+ATOM   5375  C   TRP A 678     -69.875  14.508  42.188  0.00  0.00           C
+ATOM   5376  CB  TRP A 678     -68.250  15.570  40.688  0.00  0.00           C
+ATOM   5377  O   TRP A 678     -70.125  15.023  43.281  0.00  0.00           O
+ATOM   5378  CG  TRP A 678     -67.875  16.875  41.312  0.00  0.00           C
+ATOM   5379  CD1 TRP A 678     -66.688  17.188  41.969  0.00  0.00           C
+ATOM   5412  CB  TYR A 681     -67.812  13.656  45.969  0.00  0.00           C
+ATOM   5414  CG  TYR A 681     -66.625  13.000  46.594  0.00  0.00           C
+ATOM   5415  CD1 TYR A 681     -66.188  13.344  47.875  0.00  0.00           C
+ATOM   5416  CD2 TYR A 681     -65.875  12.031  45.906  0.00  0.00           C
+ATOM   5417  CE1 TYR A 681     -65.062  12.742  48.469  0.00  0.00           C
+ATOM   5418  CE2 TYR A 681     -64.750  11.422  46.500  0.00  0.00           C
+ATOM   5420  CZ  TYR A 681     -64.375  11.781  47.781  0.00  0.00           C
